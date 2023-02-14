@@ -1,0 +1,96 @@
+.duck {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 80px;
+    height: 80px;
+    background: url(../victims.png) no-repeat;
+}
+
+
+.dog {
+    position: absolute;
+    width: 120px;
+    height: 95px;
+    background: url(../victims.png) no-repeat;
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #00f url(../bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 500;
+    overflow: hidden;
+}
+
+.results{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 500;
+    transform: translate(-50%, -50%);
+}
+
+.results p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.d-none {
+    display: none;
+}
+
+.start-screen {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 500;
+    transform: translate(-50%, -50%);
+    background-color: rgb(9, 0, 92);
+    
+}
+
+
+.start-screen button {
+    font-size: 24px;
+}
+
+button {
+    padding: 20px 10px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    border: 2px solid #fff;
+    font-size: 18px;
+    transition: all 200ms ease-in;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.stats {
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.stats p {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
